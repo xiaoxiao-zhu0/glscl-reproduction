@@ -1,0 +1,40 @@
+test_chunked_infonce_values_and_gradients_match_formula (test_core.CoreTests) ... ok
+test_data_train_only_graph_negative_sampling_leakage_and_checkpoint (test_core.CoreTests) ... ok
+test_deterministic_disjoint_splits (test_core.CoreTests) ... {
+  "seed": 2026,
+  "split": "per-user floor 10% valid, floor 20% test; remainder train",
+  "min_interactions": 10,
+  "max_users": null,
+  "users": 5,
+  "items": 20,
+  "counts": {
+    "train": 70,
+    "valid": 10,
+    "test": 20
+  }
+}
+{
+  "seed": 2026,
+  "split": "per-user floor 10% valid, floor 20% test; remainder train",
+  "min_interactions": 10,
+  "max_users": null,
+  "users": 5,
+  "items": 20,
+  "counts": {
+    "train": 70,
+    "valid": 10,
+    "test": 20
+  }
+}
+ok
+test_evaluation_masks_train_and_validation (test_core.CoreTests) ... ok
+test_graph_and_excluded_initial_layer (test_core.CoreTests) ... ok
+test_local_similarity_full_norms_batch_scope_threshold_and_singleton (test_core.CoreTests) ... ok
+test_noise_length_orthant_and_independence (test_core.CoreTests) ... ok
+test_objective_finite_backward_and_bpr_overfit (test_core.CoreTests) ... ok
+test_ranking_metric_oracle (test_core.CoreTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.026s
+
+OK

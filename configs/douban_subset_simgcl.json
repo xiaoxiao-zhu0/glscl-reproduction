@@ -1,0 +1,10 @@
+{
+  "data_dir": "data/douban-subset",
+  "output_dir": "runs/douban-subset-simgcl",
+  "epochs": 15,
+  "batch_size": 512,
+  "patience": 6,
+  "lambda_local": 0.0,
+  "lambda_uniform": 0.1,
+  "include_initial": false
+}

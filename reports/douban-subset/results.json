@@ -1,0 +1,35 @@
+{
+  "status": "implementation_run_not_paper_metric_reproduction",
+  "best_epoch": 15,
+  "selection_metric": "Recall@20",
+  "initial_valid": {
+    "Recall@10": 0.0020751953125,
+    "Recall@20": 0.004736806832107843,
+    "NDCG@10": 0.0007594312478224391,
+    "NDCG@20": 0.001454631994318534
+  },
+  "valid": {
+    "Recall@10": 0.06988811339612695,
+    "Recall@20": 0.0887383050243517,
+    "NDCG@10": 0.0583193623817054,
+    "NDCG@20": 0.0644481672915435
+  },
+  "test": {
+    "Recall@10": 0.05622105994601153,
+    "Recall@20": 0.08022012035696531,
+    "NDCG@10": 0.07440817365854914,
+    "NDCG@20": 0.07615191397318631
+  },
+  "elapsed_seconds": 63.17028309998568,
+  "epochs_run": 15,
+  "dataset": {
+    "users": 512,
+    "items": 11089,
+    "train": 22907,
+    "valid": 2986,
+    "test": 6213,
+    "cold_users": 0,
+    "cold_items": 1914,
+    "fingerprint": "d9210b964fd22206781a55b693a6171e8d3398e5898a6241135b70a700005b2b"
+  }
+}

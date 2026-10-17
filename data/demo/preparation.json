@@ -1,0 +1,14 @@
+{
+  "seed": 2026,
+  "split": "per-user floor 10% valid, floor 20% test; remainder train",
+  "min_interactions": 10,
+  "max_users": null,
+  "users": 48,
+  "items": 96,
+  "counts": {
+    "train": 576,
+    "valid": 48,
+    "test": 144
+  },
+  "source": "synthetic community data"
+}

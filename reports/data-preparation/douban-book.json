@@ -1,0 +1,33 @@
+{
+  "seed": 2026,
+  "split": "per-user floor 10% valid, floor 20% test; remainder train",
+  "min_interactions": 10,
+  "max_users": null,
+  "users": 8863,
+  "items": 22287,
+  "counts": {
+    "train": 414585,
+    "valid": 54507,
+    "test": 113037
+  },
+  "source": {
+    "repository": "https://github.com/Coder-Yu/SELFRec",
+    "commit": "5b0229423cb1c727e85a704d63e460368c8b9dde",
+    "files": [
+      {
+        "file": "train.txt",
+        "url": "https://raw.githubusercontent.com/Coder-Yu/SELFRec/5b0229423cb1c727e85a704d63e460368c8b9dde/dataset/douban-book/train.txt",
+        "bytes": 5610409,
+        "sha256": "10d1ae2e4666610af71a1b4d6af4e39d592906cd2c735b10e092e65966e1e31e"
+      },
+      {
+        "file": "test.txt",
+        "url": "https://raw.githubusercontent.com/Coder-Yu/SELFRec/5b0229423cb1c727e85a704d63e460368c8b9dde/dataset/douban-book/test.txt",
+        "bytes": 1402965,
+        "sha256": "0594b8520d9bb30d9e8b1ef10d7a17b95dab2d7e007322d7a240895c0dd6d067"
+      }
+    ]
+  },
+  "min_rating": 4,
+  "warning": "Re-split union of public files; NOT the authors' unknown split."
+}

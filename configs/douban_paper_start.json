@@ -1,0 +1,22 @@
+{
+  "data_dir": "data/douban-book",
+  "output_dir": "runs/douban-paper-start",
+  "device": "cpu",
+  "epochs": 300,
+  "batch_size": 6000,
+  "embedding_dim": 64,
+  "layers": 2,
+  "temperature": 0.2,
+  "learning_rate": 0.001,
+  "alpha": 2.5,
+  "lambda_local": 1e-6,
+  "lambda_uniform": 0.1,
+  "lambda_reg": 1e-4,
+  "epsilon": 0.1,
+  "similarity_threshold": 0.1,
+  "loss_reduction": "sum",
+  "normalize_local": false,
+  "include_initial": false,
+  "eval_every": 5,
+  "patience": 10
+}

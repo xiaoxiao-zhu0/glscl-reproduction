@@ -1,0 +1,31 @@
+{
+  "files": {
+    "configs/demo.json": "de1a65281485f144517868c0dd1caff19f019d518969cdf5044f723f2f1f554f",
+    "configs/douban_paper_start.json": "5d09304d6ece5c17076d67225e6a57e4342e8480c7fdda3f3ccf84e0fe10d6d1",
+    "configs/douban_subset.json": "d99c360407fb9835b07bd3ac7b3736fee966e1b944d2c3492e1c32f924e7b2fc",
+    "configs/douban_subset_lightgcn.json": "6c6263b04dfe4604409114ded695c36118e0e9d489094ede35fb9346474df365",
+    "configs/douban_subset_simgcl.json": "bfdfdf6640bf841feb8833c8517c4f6f458de6221c8b3ab146ee5b1d989f6f23",
+    "data/demo/preparation.json": "551a626680ddc0f50b388f6d5e790147244ab680c7749b77ecc69d1e0e92b108",
+    "data/demo/test.txt": "d8325010bd99af43e2a73b5873e9919e1e294187aaaffa13c7629ff4916ea891",
+    "data/demo/train.txt": "7ed2658e1aeaa5389cf92561b8f2e1c8bd5c0d1ae9b0ff21166a7b35503522ea",
+    "data/demo/valid.txt": "2156c5251b61cefc09ed9dd9b3af0bced2ed632a848d155ec984760519a08428",
+    "data/douban-book/preparation.json": "cd8e0e05c1ed4ad432da703cd2dbf626f729da8e8806d15a6e69325372ff7a6f",
+    "data/douban-book/test.txt": "dbc2b21fdd2c601816a1df30d1767785c47960fca780372c4a45c87f2d653f28",
+    "data/douban-book/train.txt": "90a45469c850d7aef436f6f4a63501d9c572db0aa91ccaf719a08c6bd001ff41",
+    "data/douban-book/valid.txt": "c8aa5bc8fbdebb32d6e0f602f3299608500e839c520b3a477bdef737d3f7801f",
+    "glscl/__init__.py": "f4d3db7dfc00239aa7f45136c2c73d8de3ab8aba8415a67469ec96f4dc3c224a",
+    "glscl/data.py": "76ec644613ff20e611a2232fe8c7d20bd3c7b4e550831bea0a7a673041089344",
+    "glscl/metrics.py": "3ea89289f620f6a459663db07032f49d97d353b35c51306aa2c054502a3ffb48",
+    "glscl/model.py": "a23d093f126200efa4df8cb501214c4f834e2b8a66ec426e4633d2313f7f2cee",
+    "prepare_data.py": "49de323fcfa96208132bfda961d73f067e06d896e12f472edd8c15f97ce94d3e",
+    "README.md": "59382f2504bed0d46527aa1ee39d44ba19c4113d21d333690019cbc77512e0d5",
+    "recommend.py": "8bff2608462057db40b6d98d71115c09dfe4067639859ff969bb538c171e010b",
+    "REPRODUCTION_NOTES.md": "04917c0ebd9fd7af2c69bbef8d2d4cc8c12d8850771180ae26d89ef488d68284",
+    "requirements.txt": "5f260d8a353fa0a9b2c428b36d5cc75a05245503b106a8c36b3fe69d534859f1",
+    "scripts/server_trial.py": "93e667f80e822f77012ff87bfe9a2e52727652b9681cfc9597d2c45b4c4fbbad",
+    "tests/test_core.py": "c0c25552e28ed8ceadc4b2f884ef720e34335ef9dfb96c46c1e3820be52f0d0b",
+    "train.py": "c4d75f5b7c4d27bdefa20520a343b6a2e8bf3c44668b1b6b10da6a45e7441021"
+  },
+  "remote_host": "teacher-server2",
+  "remote_root": "/home/xiao20244352113/glscl-reproduction/20261017_gpu_trial"
+}

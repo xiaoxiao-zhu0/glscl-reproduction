@@ -1,0 +1,26 @@
+{
+  "state": "complete",
+  "started_at_utc": "2026-10-17T07:24:27.497067+00:00",
+  "pid": 166640,
+  "gpu": "physical GPU 0 (CUDA_VISIBLE_DEVICES=0)",
+  "steps": [
+    {
+      "name": "tests",
+      "returncode": 0,
+      "wall_seconds": 3.5767654190130997
+    },
+    {
+      "name": "gpu-smoke",
+      "returncode": 0,
+      "wall_seconds": 4.482733843004098
+    },
+    {
+      "name": "full-one-epoch",
+      "returncode": 0,
+      "wall_seconds": 57.01148824999109
+    }
+  ],
+  "current_step": "full-one-epoch",
+  "step_started_at_utc": "2026-10-17T07:24:35.560084+00:00",
+  "finished_at_utc": "2026-10-17T07:25:32.573582+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.10.14",
+  "torch": "2.3.1+cu121",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "device": "cuda",
+  "cuda_available": true,
+  "dataset": {
+    "users": 48,
+    "items": 96,
+    "train": 576,
+    "valid": 48,
+    "test": 144,
+    "cold_users": 0,
+    "cold_items": 0,
+    "fingerprint": "11e051beb4b222f9c51d6c10aa4668749183b5232ea2062ce77e19a0ae7a8c36"
+  }
+}

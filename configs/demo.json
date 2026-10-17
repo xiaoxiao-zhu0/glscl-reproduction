@@ -1,0 +1,8 @@
+{
+  "data_dir": "data/demo",
+  "output_dir": "runs/demo-balanced",
+  "epochs": 40,
+  "batch_size": 128,
+  "patience": 12,
+  "lambda_uniform": 0.001
+}

@@ -1,0 +1,10 @@
+{
+  "/home/xiao20244352113/glscl-reproduction/20261017_gpu_trial/runs/gpu-smoke/best.pt": {
+    "bytes": 41350,
+    "sha256": "71487d14f9116fb3cbfe04b95655d90c8a99b54a56b420afbd820f23236771a8"
+  },
+  "/home/xiao20244352113/glscl-reproduction/20261017_gpu_trial/runs/full-one-epoch/best.pt": {
+    "bytes": 8424838,
+    "sha256": "756a7917477441f193ed10e9253aa5c0149a502bb913b13d964def584d159406"
+  }
+}

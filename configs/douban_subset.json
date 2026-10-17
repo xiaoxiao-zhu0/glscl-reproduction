@@ -1,0 +1,9 @@
+{
+  "data_dir": "data/douban-subset",
+  "output_dir": "runs/douban-subset",
+  "epochs": 15,
+  "batch_size": 512,
+  "patience": 6,
+  "alpha": 2.5,
+  "lambda_local": 1e-6
+}
