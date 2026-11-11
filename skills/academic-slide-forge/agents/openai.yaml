@@ -1,0 +1,6 @@
+interface:
+  display_name: "Academic Slide Forge"
+  short_description: "按叙事、构图和质量检查生成可迭代的学术与项目幻灯片"
+  default_prompt: "Use $academic-slide-forge to analyze my whole project and create a source-grounded, visually reviewed presentation. Default to native editable PPTX for PPT requests; choose Slidev for web/PDF when appropriate. Resume existing progress before starting new analysis."
+policy:
+  allow_implicit_invocation: true
